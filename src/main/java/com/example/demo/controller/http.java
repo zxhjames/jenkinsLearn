@@ -1,12 +1,11 @@
 package com.example.demo.controller;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @program: 中间件
  * @description:
- * @author: 占翔昊
+ * @author: james
  * @create 2021-02-07 18:25
  **/
 
@@ -14,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class http {
     @RequestMapping("/")
     public String SayHello() {
-        return "helleo jenkins,我是jamesaaa";
+        return "hello jenkins";
     }
 }
